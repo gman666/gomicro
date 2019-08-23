@@ -2,6 +2,7 @@ syntax = "proto3";
 
 service Greeter {
     rpc Hello(HelloRequest) returns (HelloResponse) {}
+    rpc Goodbye(GoodbyeRequest) returns (GoodbyeResponse) {}
 }
 
 message HelloRequest {
@@ -10,4 +11,12 @@ message HelloRequest {
 
 message HelloResponse {
     string greeting = 2;
+}
+
+message GoodbyeRequest {
+    string name = 1;
+}
+
+message GoodbyeResponse {
+    string farewell = 2;
 }
