@@ -18,5 +18,5 @@ message GoodbyeRequest {
 }
 
 message GoodbyeResponse {
-    string farewell = 2;
+    string greeting = 2;
 }
