@@ -14,7 +14,7 @@ func (g *Greeter) Hello(ctx context.Context, req *proto.HelloRequest, rsp *proto
 	return nil
 }
 
-func (g *Greeter) Goodbye(ctx context.Context, req *proto.GoodbyeRequest, rsp *proto.GoodbyeReponse) error {
+func (g *Greeter) Goodbye(ctx context.Context, req *proto.GoodbyeRequest, rsp *proto.GoodbyeResponse) error {
 	rsp.Greeting = "Goodbye " + req.Name
 	return nil
 }

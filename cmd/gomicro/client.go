@@ -23,4 +23,11 @@ func main() {
 	}
 
 	fmt.Println(rsp.Greeting)
+
+	rsp2, err := greeter.Goodbye(context.TODO(), &proto.GoodbyeRequest{Name: "Gordon"})
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	fmt.Println(rsp2.Greeting)
 }
