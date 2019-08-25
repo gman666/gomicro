@@ -29,5 +29,5 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Println(rsp2.Greeting)
+	fmt.Println(rsp2.Farewell)
 }
