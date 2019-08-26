@@ -7,6 +7,8 @@ require (
 	github.com/containerd/continuity v0.0.0-20190822154759-403b5be3d72b // indirect
 	github.com/coreos/etcd v3.3.15+incompatible // indirect
 	github.com/golang/protobuf v1.3.2
+	github.com/gorilla/websocket v1.4.1 // indirect
+	github.com/hashicorp/consul/api v1.2.0 // indirect
 	github.com/hashicorp/go-retryablehttp v0.6.0 // indirect
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	github.com/micro/examples v0.2.0
@@ -18,13 +20,15 @@ require (
 	github.com/onsi/ginkgo v1.9.0 // indirect
 	github.com/onsi/gomega v1.6.0 // indirect
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
+	github.com/protocolbuffers/protobuf v3.9.1+incompatible // indirect
 	github.com/stretchr/testify v1.4.0 // indirect
 	go.etcd.io/etcd v3.3.15+incompatible // indirect
 	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586 // indirect
 	golang.org/x/image v0.0.0-20190823064033-3a9bac650e44 // indirect
-	golang.org/x/mobile v0.0.0-20190814143026-e8b3e6111d02 // indirect
+	golang.org/x/mobile v0.0.0-20190823173732-30c70e3810e9 // indirect
 	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7 // indirect
-	golang.org/x/tools v0.0.0-20190823093517-aa644d2adf2a // indirect
+	golang.org/x/sys v0.0.0-20190825160603-fb81701db80f // indirect
+	golang.org/x/tools v0.0.0-20190826060629-95c3470cfb70 // indirect
 	google.golang.org/api v0.9.0 // indirect
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55 // indirect
 	google.golang.org/grpc v1.23.0 // indirect
